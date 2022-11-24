@@ -16,3 +16,7 @@
 # Add a feed source
 #echo 'src-git luci-app-scutclient https://github.com/scutclient/luci-app-scutclient' >>feeds.conf.default
 #echo 'src-git passwall https://github.com/xiaorouji/openwrt-passwall' >>feeds.conf.default
+
+#Add Scutclient
+git clone https://github.com/scutclient/scutclient package/scutclient
+git clone https://github.com/scutclient/luci-app-scutclient feeds/luci/applications/luci-app-scutclient
